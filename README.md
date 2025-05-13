@@ -1,6 +1,22 @@
 # Rollup
 
+> `rollup.config.js`
 
+
+```bash
+pnpm add rollup -D
+```
+
+```bash
+npx rollup -c
+```
+
+## Plugins
+
+名字|备注
+---|---
+[@rollup/plugin-commonjs](https://github.com/rollup/plugins/tree/master/packages/commonjs) | commonjs
+[@rollup/plugin-node-resolve](https://github.com/rollup/plugins/tree/master/packages/node-resolve)| node_modules 
 
 
 
@@ -9,3 +25,4 @@
 
 
 * <https://rollupjs.org/>
+* <https://www.rollupjs.com/>
