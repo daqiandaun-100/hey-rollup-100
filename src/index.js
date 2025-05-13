@@ -4,13 +4,17 @@ import { sum, mul } from "./util"
 import { formatPrice } from './service'
 
 // @rollup/plugin-node-resolve
-import _ from 'lodash'
+// import _ from 'lodash'
+
+import "./css/style.css"
+
 
 function sayHello(){
   console.log(sum(1, 2))
   console.log(mul(2,3))
   console.log(formatPrice())
-  console.log(_.join(['abc', 'cba']))
+
+  // console.log(_.join(['abc', 'cba']))
 
   const message = "Hello World";
   console.log(message)

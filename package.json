@@ -18,6 +18,9 @@
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
     "lodash": "^4.17.21",
-    "rollup": "^4.40.2"
+    "postcss": "^8.5.3",
+    "postcss-preset-env": "^10.1.6",
+    "rollup": "^4.40.2",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }

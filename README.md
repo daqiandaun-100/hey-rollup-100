@@ -20,7 +20,7 @@ npx rollup -c
 [@rollup/plugin-babel](https://github.com/rollup/plugins/tree/master/packages/babel) | Babel
 [@rollup/plugin-terser](https://github.com/rollup/plugins/tree/master/packages/terser) | Terser
 [@rollup/plugin-html](https://github.com/rollup/plugins/tree/master/packages/html) | Html
-
+[rollup-plugin-postcss](https://github.com/egoist/rollup-plugin-postcss) | PostCSS
 
 ## Ref
 
