@@ -11,6 +11,9 @@ function sayHello(){
   console.log(mul(2,3))
   console.log(formatPrice())
   console.log(_.join(['abc', 'cba']))
+
+  const message = "Hello World";
+  console.log(message)
 }
 
 

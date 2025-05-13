@@ -1,5 +1,6 @@
 const commonjs = require('@rollup/plugin-commonjs');
 const nodeResolve = require('@rollup/plugin-node-resolve');
+const { babel } = require('@rollup/plugin-babel')
 
 module.exports = {
   input: './src/index.js',
@@ -17,6 +18,9 @@ module.exports = {
   external: ['lodash'],
   plugins: [
     commonjs(),
-    nodeResolve()
+    nodeResolve(),
+
+    // https://github.com/rollup/plugins/tree/master/packages/babel#using-with-rollupplugin-commonjs
+    babel({ babelHelpers: 'bundled', exclude: /node_modules/ })
   ]
 }

@@ -17,7 +17,7 @@ npx rollup -c
 ---|---
 [@rollup/plugin-commonjs](https://github.com/rollup/plugins/tree/master/packages/commonjs) | commonjs
 [@rollup/plugin-node-resolve](https://github.com/rollup/plugins/tree/master/packages/node-resolve)| node_modules 
-
+[@rollup/plugin-babel](https://github.com/rollup/plugins/tree/master/packages/babel) | Babel
 
 
 ## Ref
