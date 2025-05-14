@@ -3,6 +3,16 @@
 > `rollup.config.js`
 
 
+## 路线图
+
+* format: `commonjs`、`iife`、`umd`
+* `rollup.config.js`
+* `globals`、`external`
+* `commonjs()`、`nodeResolve()`
+* `babel()`、`terser()`
+* `postcss()`
+
+
 ```bash
 pnpm add rollup -D
 ```
